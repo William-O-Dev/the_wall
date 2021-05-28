@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+#container {
+    margin: 25px;
+}
+
+#header {
+    display: flex;
+    border-bottom: 3px solid black;
+}
+
+#header p {
+    padding-left: 550px;
+    margin-top: 15px;
+    font-weight: bold;    
+}
+
+#header a {
+    margin-left: 75px;
+    margin-top: 15px;
+}
+
+#message_create {
+    padding: 50px 50px 20px 50px;
+}
+
+#message_create label {
+    font-weight: bold;
+    margin-bottom: -5px;
+}
+
+#message_create input {
+    border: 2px solid black;
+}
+
+#message_create button {
+    background-color: lightskyblue;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 1300px;
+}
+
+#comment_create button {
+    background-color: lightgreen;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 1270px;
+}
+
+.messages_comments {
+    margin-bottom: 15px;
+}
+
+.the_user {
+    font-weight: bold;
+    font-size: large;
+    margin: 0px 40px;
+}
+
+.the_message {
+    margin: 0px 60px;
+    font-weight: normal;
+}
+
+#comments {
+    margin-bottom: 15px;
+}
+
+.commenter {
+    font-weight: bold;
+    font-size: large;
+    margin: 0px 80px;
+}
+
+.one_comment {
+    margin: 0px 100px;
+    font-weight: normal;
+}
+
+#comment_create label {
+    font-weight: bold;
+    margin-bottom: -5px;
+    margin-top: 10px;
+}
+
+#comment_create input{
+    border: 2px solid black;
+}
+
+#comment_create {
+    padding: 10px 80px 0px 80px;
+}
